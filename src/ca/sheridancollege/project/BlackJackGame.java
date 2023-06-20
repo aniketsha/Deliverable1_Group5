@@ -1,20 +1,28 @@
+/*
+Group - 5
+This code is for Black Jack game
+*/
+
 package ca.sheridancollege.project;
 
 import java.util.ArrayList;
 
+// thsi is class for BlackJack game
+public class BlackJackGame {
 
-public class Game {
-
+    // variable of this clss
     private final String name;
     private ArrayList<Player> players;
     private GroupOfCards deck;
 
-    public Game(String name) {
+    //constructor
+    public BlackJackGame(String name) {
         this.name = name;
         players = new ArrayList<>();
         deck = new GroupOfCards();
     }
 
+    //getter
     public String getName() {
         return name;
     }
@@ -35,12 +43,13 @@ public class Game {
         players.remove(player);
     }
 
+    //function which deals with initialCards
     public void dealInitialCards() {
-        for (Player player : players) {
+        for (Player member : players) {
             Card card1 = deck.drawCard();
             Card card2 = deck.drawCard();
-            player.addCard(card1);
-            player.addCard(card2);
+            member.addCard(card1);
+            member.addCard(card2);
         }
     }
 

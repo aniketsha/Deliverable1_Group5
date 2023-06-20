@@ -3,9 +3,10 @@ package ca.sheridancollege.project;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
+//this class is for grp of cards
 public class GroupOfCards {
 
+    //ArrayList for cards
     private ArrayList<Card> cards;
 
     public GroupOfCards() {

@@ -3,6 +3,7 @@ package ca.sheridancollege.project;
 
 public class Card extends GroupOfCards {
 
+    //private variables 
     private Suit suit;
     private Rank rank;
 
@@ -11,6 +12,7 @@ public class Card extends GroupOfCards {
         this.rank = rank;
     }
 
+    //getters for private variables
     public Suit getSuit() {
         return suit;
     }
@@ -19,6 +21,7 @@ public class Card extends GroupOfCards {
         return rank;
     }
 
+    //overriding the toString method
     @Override
     public String toString() {
         return rank + " of " + suit;

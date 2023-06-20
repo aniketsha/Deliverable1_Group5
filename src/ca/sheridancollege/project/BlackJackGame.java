@@ -1,6 +1,7 @@
 /*
 Group - 5
 This code is for Black Jack game
+Name: Karanveer Singh 
 */
 
 package ca.sheridancollege.project;

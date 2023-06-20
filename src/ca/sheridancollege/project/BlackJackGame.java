@@ -2,7 +2,7 @@
 Group - 5
 group members: 
 1. Aniket Sharma
-2. Beenu puri
+2. Beenu Puri
 3. Jimit Rakeshkumar pandya
 4. Karanveer Singh
 This code is for Black Jack game
